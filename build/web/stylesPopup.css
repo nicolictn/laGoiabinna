@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*STYLE PÁGINA INICIAL LA GOIABINNA*/
+
+* {
+    font-family: "Quicksand", serif;
+}
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.popup-caixinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 150px;
+    width: 400px;
+    padding: 5px 5px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.50);
+}
+
+.popup-conteudo {
+    text-align: center;
+}
+
+.popup-conteudo button {
+    color: white;
+    background-color: #C5233B;
+    border: none;
+    border-radius: 32px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding: 10px 20px;
+}
