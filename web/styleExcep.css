@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*STYLE PÁGINA INICIAL LA GOIABINNA*/
+
+* {
+    font-family: "Quicksand", serif;
+}
+
+.container-excep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-excep p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.container-excep button {
+    font-size: 14px;
+    border: 0;
+    background-color: #9b013d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container-excep a {
+    text-decoration: none;
+    color: white;
+}

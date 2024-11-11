@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*STYLE PÁGINA INICIAL LA GOIABINNA*/
+
+* {
+    font-family: "Quicksand", serif;
+}
+
+nav {
+    background-color: #9B013D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main h1 {
+    background-color: #9B013D;
+    width: 50%;
+    color: white;
+    font-size: 34px;
+    border-radius: 8px;
+    margin: 0 auto;
+    position:relative;
+    top: 30px;
+}
+
+.container_cadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    border: 10px solid #9B013D;
+    border-radius: 32px 16px ;
+    padding: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    align-items: left;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+form input {
+    width: 70%;
+    border-radius: 3px;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+form select {
+    width: 70%;
+    border-radius: 3px;
+    padding: 6px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    border: 2px solid #000;
+}
+
+form button {
+    margin-top: 16px;
+    color: white;
+    background-color: #C5233B;
+    border: none;
+    border-radius: 32px;
+    padding: 9px 20px;
+    width: 20%;
+}
+
+.button_salvar_produtos {
+    margin-top: 16px;
+    color: white;
+    background-color: #C5233B;
+    border: none;
+    border-radius: 32px;
+    padding: 9px 20px;
+    width: 20%;
+    cursor: pointer;
+}
