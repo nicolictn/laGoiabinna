@@ -1,7 +1,6 @@
 # LA GOIABINNA - Software para Controle de Produtos
 
-[![Assista ao vídeo](https://via.placeholder.com/400x200)](siteApresentacao.mp4)
-
+[![Assista ao vídeo](telaExibicao.png)](siteApresentacao.mp4)
 
 ## Informações
 
